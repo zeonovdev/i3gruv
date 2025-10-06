@@ -4,16 +4,16 @@ My i3wm config in gruvbox dark theme.
 
 # Installation
 1. Clone repo:
-    '''bash
+    ```bash
     git clone https://github.com/zeonovdev/i3gruv.git
     cd i3gruv
-    '''
+    ```
 
 2. Start installation script:
-    '''bash
+    ```bash
     chmod +x setup.sh
     ./setup.sh
-    '''
+    ```
 3. Reboot system.
 
 ### Apps 
