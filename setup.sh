@@ -9,7 +9,7 @@ fi
 echo "Downloads packages..."
 sudo apt update 
 sudo apt upgrade
-sudo apt install rofi picom i3 polybar nitrogen nwg-look curl wget dunst brightnessctl maim slop xclip bc kitty fastfetch
+sudo apt install rofi picom i3 polybar nitrogen nwg-look curl wget dunst brightnessctl maim slop xclip bc kitty fastfetch imagemagick
 
 echo "Cloning wallpapers..."
 if [ ! -d "$HOME/Pictures" ]; then
@@ -35,7 +35,6 @@ echo "Coping config files..."
 cp -r i3 $HOME/.config
 cp -r kitty $HOME/.config
 cp -r fastfetch $HOME/.config
-cp -r dunst $HOME/.config
 cp -r polybar $HOME/.config
 cp -r rofi $HOME/.config
 cp -r picom $HOME/.config 
