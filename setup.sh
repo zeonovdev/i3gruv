@@ -9,7 +9,7 @@ fi
 echo "Downloads packages..."
 sudo apt update 
 sudo apt upgrade
-sudo apt install rofi picom i3 polybar nitrogen nwg-look curl wget dunst brightnessctl maim slop xclip bc kitty fastfetch imagemagick
+sudo apt install rofi picom i3 polybar nitrogen nwg-look curl wget dunst brightnessctl maim slop xclip bc kitty fastfetch imagemagick papirus-icon-theme
 
 echo "Cloning wallpapers..."
 if [ ! -d "$HOME/Pictures" ]; then
