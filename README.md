@@ -17,7 +17,7 @@ My i3wm config in gruvbox dark theme.
 3. Reboot system.
 
 ### Apps 
-App/power/wifi menu: rofi
+App/wifi menu: rofi
 Terminal: kitty
 Bar: polybar
 Compositor: picom
