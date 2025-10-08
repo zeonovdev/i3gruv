@@ -39,8 +39,7 @@ cp -r polybar $HOME/.config
 cp -r rofi $HOME/.config
 cp -r picom $HOME/.config 
 
-echo "Installing power/wifi menu..."
-sudo cp -r rofi-power-menu /bin/                     
+echo "Installing wifi menu..."                    
 sudo cp -r rofi-wifi-menu.sh /bin/
 
 echo "Installing font..."
